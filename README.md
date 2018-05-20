@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## The Good'ol MNIST!
 
-You can use the [editor on GitHub](https://github.com/PradyumnaCh/MNIST/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+MNIST is a classic dataset consisting of hand-written digits. This dataset is extensively used to test several ML algorithms upon. Though very simple, this dataset gets you going in the domain. In this project, I establish the power of Convolutional Neural Networks in image recognition by an extremely simple neural network.    
+More about MNIST at [Wikipedia](https://en.wikipedia.org/wiki/MNIST_database).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Convolutional Neural Networks
+Flattening images as vectors results in the loss of spatial information. Further, for flattened images, even of a meagre 1MP resolution, a **million** parameters are needed. That's the figure for a single layer. Imagine what the case can be for a Deep Network! (The present day state-of-the-art networks have more than a hundred layers!) The number would be impractical even for modest network sizes.  
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Convolution Operations in the networks serve two purposes:  
+  
+1. Preserving the spatial information, as there is no flattening involved and  
+2. Reducing the parameters, by weight sharing.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PradyumnaCh/MNIST/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+__Visit my GitHub [here](https://github.com/PradyumnaCh/).__
