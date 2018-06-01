@@ -12,4 +12,7 @@ Convolution Operations in the networks serve two purposes:
 1. Preserving the spatial information, as there is no flattening involved and  
 2. Reducing the parameters, by weight sharing.
 
+### The Project
+I used a very simple model, having just two Convolutional blocks. Such a simple model delivers accuracies above 99%. This testifies the effectiveness of Convolutional Models.
+
 __Visit my GitHub [here](https://github.com/PradyumnaCh/).__
